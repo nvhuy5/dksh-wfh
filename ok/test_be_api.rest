@@ -1,0 +1,66 @@
+###
+POST https://dev-datahub.dksh.b2b.com.my/api/workflow/filter
+content-type: application/json
+accept: */*
+X-Token: RZ!=gL0bVLx+y3qiOMe::E9puV(s=q5C
+
+{
+  "filePath": "SAP_SFTP/DKSH_TW/CUSTOMER_3/FOLDER_10",
+  "fileName": "DN800018251920240708123641.csv",
+  "fileExtension": ".csv",
+  "project": "DKSH_TW",
+  "source": "SFTP"
+}
+
+###
+POST https://dev-datahub.dksh.b2b.com.my/api/workflow/filter
+content-type: application/json
+accept: */*
+X-Token: RZ!=gL0bVLx+y3qiOMe::E9puV(s=q5C
+
+{
+  "filePath": "SAP_SFTP/MASTER_DATA/",
+  "fileName": "TW_E2ECust.xlsx",
+  "fileExtension": ".xlsx",
+  "project": "DKSH_TW",
+  "source": "SFTP"
+}
+
+###
+POST https://dev-datahub.dksh.b2b.com.my/api/data-sync-record/sync-data
+content-type: application/json
+accept: */*
+X-Token: RZ!=gL0bVLx+y3qiOMe::E9puV(s=q5C
+
+{
+  "fileName": "DKSH_VN_SYNC_CUSTOMER",
+  "loadMode": "INSERT",
+  "data": [
+    {
+      "additionalProp1": {
+        "name": "01",
+        "cnsname": "新光吳火獅紀念醫院",
+        "custcode": "XX",
+        "sourcedir": "C:\\EDIOrders\\HP\\新光醫院\\NewOrder",
+        "objectdir": "C:\\EDIOrders\\HP\\新光醫院\\Backup",
+        "txtfiledir": "C:\\EDIOrders\\HP\\新光醫院\\E2E",
+        "prgname": "C:\\MAX\\E2EAP0A\\E2EAP0A.EXE",
+        "uploadprice": "N",
+        "potype": "0012",
+        "createdate": "2017-09-11"
+      },
+      "additionalProp2": {
+        "name": "02",
+        "cnsname": "寶雅",
+        "custcode": "131015950",
+        "sourcedir": "C:\\EDIOrders\\KeyAccount\\POYA\\NewOrder",
+        "objectdir": "C:\\EDIOrders\\KeyAccount\\POYA\\Backup",
+        "txtfiledir": "C:\\EDIOrders\\KeyAccount\\POYA\\E2E",
+        "prgname": "C:\\MAX\\E2EAP02\\E2EAP02.EXE",
+        "uploadprice": "N",
+        "potype": "0007",
+        "createdate": "2017-09-11"
+      }
+    }
+  ]
+}
