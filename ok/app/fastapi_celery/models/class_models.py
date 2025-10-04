@@ -313,6 +313,17 @@ class WorkflowConfig(BaseModel):
     metadata_api: Optional[SessionConfig] = None
 
 
+class StepConfig(BaseModel):
+    Step_start_api: ApiConfig
+    Step_finish_api: ApiConfig
+
+
+class Step(BaseModel):
+    step: Optional[Dict[str, Any]] = None
+    config_api: Optional[Dict[str, Any]] = None
+    metadata_api: Optional[StepConfig] = None
+
+
 class ContextData(BaseModel):
     request_id: str
     file_path: Optional[str] = None
@@ -320,4 +331,5 @@ class ContextData(BaseModel):
     source_name: Optional[str] = None
     # document_type: DocumentType
     # source_type: SourceType
+    step: Optional[List[Step]] = None
     workflow: Optional[WorkflowConfig] = None

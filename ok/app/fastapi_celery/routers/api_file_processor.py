@@ -33,6 +33,27 @@ router = APIRouter()
 
 @router.post("/file/process", summary="Process file and log task result")
 async def process_file(data: FilePathRequest, http_request: Request) -> Dict[str, str]:
+    """
+    Submit a task to the Celery worker and update the workflow.
+
+    This endpoint is used to start file processing asynchronously.
+    It supports both initial runs and reruns:
+    - If `celery_id` is not provided, a new UUID will be generated.
+    - If `celery_id` and `rerun_attempt` are provided, the task is treated as a rerun.
+
+    Args:
+        data (FilePathRequest): Request payload including the file path and optional celery_id and rerun_attempt.
+        http_request (Request): FastAPI Request object for context extraction.
+        project: Name of the project this file belongs to. 
+              This is used to determine the workflow configuration, storage location, 
+              and possibly the business logic that applies.
+
+    Returns:
+        Dict[str, str]: Dictionary with 'celery_id' and 'file_path' if successful.
+
+    Raises:
+        HTTPException: If task submission fails due to an internal error.
+    """
     try:
         # If run for the first time, it will create request_id (celery_id)
         # If run again, it will reuse request_id (celery_id)

@@ -25,7 +25,7 @@ class TrackingModel(BaseModel):
     rerun_attempt: Optional[int] = None
 
     @classmethod
-    def from_file_request(cls, data: FilePathRequest) -> "TrackingModel":
+    def from_data_request(cls, data: FilePathRequest) -> "TrackingModel":
         return cls(
             request_id=data.celery_id,
             file_path=data.file_path,

@@ -1,1 +1,961 @@
-{"original_file_path": "SAP_SFTP/DKSH_TW/CUSTOMER_3/FOLDER_10/DN800018251920240708123641.csv", "document_type": "order", "po_number": null, "items": [{"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000001", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123042", "Column_15": "FWHB", "Column_16": "18", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000002", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123043", "Column_15": "FWHB", "Column_16": "144", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000003", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123044", "Column_15": "FWHB", "Column_16": "196", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000004", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123045", "Column_15": "FWHB", "Column_16": "45", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000005", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123046", "Column_15": "FWHB", "Column_16": "27", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000006", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123047", "Column_15": "FWHB", "Column_16": "60", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000007", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123048", "Column_15": "FWHB", "Column_16": "184", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000008", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123049", "Column_15": "FWHB", "Column_16": "336", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000009", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123144", "Column_15": "FWHB", "Column_16": "26", "Column_17": "CAR", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000010", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3110292", "Column_15": "FWHB", "Column_16": "276", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000011", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123038", "Column_15": "FWHB", "Column_16": "42", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000012", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123050", "Column_15": "FWHB", "Column_16": "48", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}, {"Hehe": "SD005", "hehe": "20240708123641", "mot_2": "8000182519", "m?t_2": "000013", "haha m?t": "20240709", "1": "TW00206666", "16 hehe": "?????", "Column_8": "0972808094", "Column_9": "351", "Column_10": "??????", "Column_11": "?????35?", "Column_12": "109003???PPG240705G001?????", "Column_13": "3100", "Column_14": "3123051", "Column_15": "FWHB", "Column_16": "12", "Column_17": "PAK", "Column_18": "", "Column_19": "???????? 0972808094", "Column_20": "???", "Column_21": "", "Column_22": "", "Column_23": "", "Column_24": "", "Column_25": "0", "Column_26": "", "Column_27": ""}], "metadata": {}, "step_status": "1", "messages": null, "capacity": "2.58 KB", "step_detail": [{"step": {"workflowStepId": "0197e455-de5a-71d1-8428-6f10e4152f80", "stepName": "TEMPLATE_FILE_PARSE", "stepOrder": 1, "stepConfiguration": []}, "config_api": [{"stepId": "0197e455-de5a-71d1-8428-6f10e4152f80", "configId": "0197e455-deab-783d-97dd-7e7fcc368f11", "templateFileParse": {"id": "019979f0-c41e-7837-a157-dd15748de42e", "code": "CSV_003_TEMPLATE", "extension": "CSV"}}], "metadata_api": [{"url": "/api/workflow/step/start", "request": {"sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44", "stepId": "0197e455-de5a-71d1-8428-6f10e4152f80"}, "response": {"workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695", "status": "PROCESSING"}}, {"url": "/api/workflow/step/finish", "request": {"workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695", "code": "1", "message": "", "dataInput": "input_data", "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_FILE_PARSE/DN800018251920240708123641.json"}, "response": {"workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695", "status": "SUCCESS"}}]}, {"step": {"workflowStepId": "0198cff4-1217-7e4a-8777-f95d13847d7f", "stepName": "TEMPLATE_FORMAT_VALIDATION", "stepOrder": 2, "stepConfiguration": []}, "config_api": {"templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "templateFileParserCode": "CSV_003_TEMPLATE", "templateExtension": "CSV", "orderTypeDto": {"orderTypeId": "0198596e-1521-77fd-8112-79b4fbcd623c", "orderTypeName": "Purchase order"}, "version": 7, "status": "ACTIVE", "columns": [{"templateFileColumnId": "019979f0-c41f-7ad5-9f4e-0e7c376dbfe3", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 1, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c41f-7ee6-b605-febdaf6309a0", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 2, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c41f-74ca-bff3-27b6ad330567", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 3, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-7026-a1f9-15ef0215f561", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 4, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-7506-9579-c0834dbf4cf8", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 5, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-76bc-915f-bdff57fba307", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 6, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-788e-8c7b-2198ff5c0d1f", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 7, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-763f-9290-075a00c6054d", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 8, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-776c-bcf0-7da7a2f31d90", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 9, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-78ec-83a2-9b306f2aea9a", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 10, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-77f9-8f73-6ec21b75ce76", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 11, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c420-737d-aa31-6097d7bae289", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 12, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c422-76ff-b604-c839a5784ea8", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 13, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c422-7a12-a920-6aef0057d642", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 14, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c422-7531-a1f3-b31146e92e55", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 15, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c422-7821-9e17-2789b78d9508", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 16, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c422-7c83-a2a8-a701e54fc3c5", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 17, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-77de-9374-0c5c8337e0ae", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 18, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-7e8c-9dd5-0d9cc9448559", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 19, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-773a-bbfe-0d19b29c6946", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 20, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-70cf-9ee1-c2a8c21661ae", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 21, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-7712-9fdd-9d4ca212b83a", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 22, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-7ca6-a60b-866825930144", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 23, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-7af3-9fda-ad1874813273", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 24, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-7d11-a792-57cea1ca09b9", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 25, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c424-770f-9ff6-98514d7f9bf4", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 26, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}, {"templateFileColumnId": "019979f0-c427-7540-9c71-f4674a62f3eb", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "dataType": "Text", "order": 27, "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"}], "isLastInActive": false}, "metadata_api": [{"url": "/api/workflow/step/start", "request": {"sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44", "stepId": "0198cff4-1217-7e4a-8777-f95d13847d7f"}, "response": {"workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90", "status": "PROCESSING"}}, {"url": "/api/workflow/step/finish", "request": {"workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90", "code": "1", "message": "", "dataInput": "input_data", "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_FORMAT_VALIDATION/DN800018251920240708123641.json"}, "response": {"workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90", "status": "SUCCESS"}}]}, {"step": {"workflowStepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680", "stepName": "TEMPLATE_DATA_MAPPING", "stepOrder": 3, "stepConfiguration": []}, "config_api": {"templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e", "status": "ACTIVE", "templateFileName": "DN800018251920240708123641 (7).csv", "templateMappingHeaders": [{"templateMappingHeaderId": "019979f5-2da7-7799-a975-d09ef6d40281", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5ccf-7898-8b12-8d39681ba731", "fromHeader": "Hehe", "header": "Column_1", "order": 1}, {"templateMappingHeaderId": "01994b55-1cc1-7f4e-a84f-b2459cfb45d3", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5ccf-742b-8674-67f08a39ccbc", "fromHeader": "hehe", "header": "Column_2", "order": 2}, {"templateMappingHeaderId": "01994b55-1cc1-7e73-aa2d-4186ebbee66d", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5ccf-776b-8996-f4eee7f52c0c", "fromHeader": "mot_2", "header": "Column_3", "order": 3}, {"templateMappingHeaderId": "019979f5-2da9-77a2-8f10-3672b196e87e", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5ccf-7a02-a478-87962fb8cd88", "fromHeader": "m?t_2", "header": "Column_4", "order": 4}, {"templateMappingHeaderId": "01994b59-79ed-795f-ab44-c3efa4b66c24", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7bbe-8911-1625c327d5e5", "fromHeader": "haha m?t", "header": "Column_5", "order": 5}, {"templateMappingHeaderId": "019979f5-2db0-7204-924e-e96adc105ec9", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7a71-ac6b-9ac6ed0d7e35", "fromHeader": "1", "header": "Column_6", "order": 6}, {"templateMappingHeaderId": "019979f5-2db0-741a-b2fd-f1b5fd9acf38", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-70d9-97da-1f73d009834b", "fromHeader": "16 hehe", "header": "Column_7", "order": 7}, {"templateMappingHeaderId": "01994b55-1cc1-788b-a647-1a16fbccc785", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7f38-a847-0b4a5fc6a0b4", "fromHeader": "Column_8", "header": "Column_8", "order": 8}, {"templateMappingHeaderId": "01994b55-1cc1-7c9b-9f50-99f68e605515", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-725d-91fc-2f5e8ec8ce9c", "fromHeader": "Column_9", "header": "Column_9", "order": 9}, {"templateMappingHeaderId": "01994b55-1cc2-7850-afab-11a34d2f5404", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-739d-bd82-c1204dd048c9", "fromHeader": "Column_10", "header": "Column_10", "order": 10}, {"templateMappingHeaderId": "01994b55-1cc2-7eb1-bb6d-5775d0f30320", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7341-a080-9d9a55b6e6c8", "fromHeader": "Column_11", "header": "Column_11", "order": 11}, {"templateMappingHeaderId": "01994b55-1cc2-7604-9eb7-5a87050f1a03", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7098-929f-f7f85ba1eec5", "fromHeader": "Column_12", "header": "Column_12", "order": 12}, {"templateMappingHeaderId": "01994b55-1cc2-75c6-a4e4-70d3f0828e00", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7a33-8285-05850210578e", "fromHeader": "Column_13", "header": "Column_13", "order": 13}, {"templateMappingHeaderId": "01994b55-1cc2-71c4-b87d-0eea92924caa", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-7ee3-b39f-3df01f96bbab", "fromHeader": "Column_14", "header": "Column_14", "order": 14}, {"templateMappingHeaderId": "01994b55-1cc2-7ea1-8075-730d0e2d5add", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-73d8-bd4c-6a74920d223a", "fromHeader": "Column_15", "header": "Column_15", "order": 15}, {"templateMappingHeaderId": "01994b55-1cc2-7fca-a5c0-f024a9318ab8", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd0-72b5-99bd-8199397ea60c", "fromHeader": "Column_16", "header": "Column_16", "order": 16}, {"templateMappingHeaderId": "01994b55-1cc2-7358-a2eb-6e13ab39d391", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd1-71b0-a2dd-e91fa2c79ed7", "fromHeader": "Column_17", "header": "Column_17", "order": 17}, {"templateMappingHeaderId": "01994b55-1cc2-7d22-a912-7356f8f3dae3", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd2-7410-af56-deea12538658", "fromHeader": "Column_18", "header": "Column_18", "order": 18}, {"templateMappingHeaderId": "01994b55-1cc3-7acb-92d9-d3c6dec602d3", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd2-728d-91dc-a09e0fecd22b", "fromHeader": "Column_19", "header": "Column_19", "order": 19}, {"templateMappingHeaderId": "01994b55-1cc3-761c-90e0-30bd7ef47310", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd2-7259-81f4-39878f9f4bbf", "fromHeader": "Column_20", "header": "Column_20", "order": 20}, {"templateMappingHeaderId": "01994b55-1cc3-77e3-a9c2-c365f99cc670", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd3-75bf-9cd7-68b0074b707e", "fromHeader": "Column_21", "header": "Column_21", "order": 21}, {"templateMappingHeaderId": "01994b55-1cc3-7482-b8e6-fabd1b88d6d2", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd3-7aa0-9769-70668e25d1dd", "fromHeader": "Column_22", "header": "Column_22", "order": 22}, {"templateMappingHeaderId": "01994b55-1cc3-70c7-9a0a-b9cb9e71618f", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd3-78b8-bd0d-e2a505d982a0", "fromHeader": "Column_23", "header": "Column_23", "order": 23}, {"templateMappingHeaderId": "01994b55-1cc3-76a3-94c4-fafbeb5a6ae5", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd3-7371-b46b-a94810b10285", "fromHeader": "Column_24", "header": "Column_24", "order": 24}, {"templateMappingHeaderId": "01994b55-1cc3-748a-83d3-97bdcba98882", "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1", "masterTemplateHeaderId": "01997eba-5cd3-704b-94e2-6f032eff7ec1", "fromHeader": "Column_25", "header": "Column_25", "order": 25}]}, "metadata_api": [{"url": "/api/workflow/step/start", "request": {"sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44", "stepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680"}, "response": {"workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600", "status": "PROCESSING"}}, {"url": "/api/workflow/step/finish", "request": {"workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600", "code": "1", "message": "", "dataInput": "input_data", "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_DATA_MAPPING/DN800018251920240708123641.json"}, "response": {"workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600", "status": "SUCCESS"}}]}], "workflow_detail": {"filter_api": {"id": "0197e455-de48-74e1-8321-56d759a13b7f", "name": "DKSH Taiwan - Customer 3 - Folder 10 - CSV", "status": "ACTIVE", "isMasterDataWorkflow": false, "sapMasterData": false, "workflowSteps": [{"workflowStepId": "0197e455-de5a-71d1-8428-6f10e4152f80", "stepName": "TEMPLATE_FILE_PARSE", "stepOrder": 1, "stepConfiguration": []}, {"workflowStepId": "0198cff4-1217-7e4a-8777-f95d13847d7f", "stepName": "TEMPLATE_FORMAT_VALIDATION", "stepOrder": 2, "stepConfiguration": []}, {"workflowStepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680", "stepName": "TEMPLATE_DATA_MAPPING", "stepOrder": 3, "stepConfiguration": []}]}, "metadata_api": [{"url": "/api/workflow/session/start", "request": {"workflowId": "0197e455-de48-74e1-8321-56d759a13b7f", "celeryId": "a735225b-24bb-41e9-a67f-87e4f256f042", "filePath": "SAP_SFTP/DKSH_TW/CUSTOMER_3/FOLDER_10/DN800018251920240708123641.csv"}, "response": {"id": "01997ec5-dda1-7384-9eec-2a6bb24d4b44", "status": "PROCESSING"}}]}, "json_output": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_DATA_MAPPING/DN800018251920240708123641.json"}
+{
+    "original_file_path": "SAP_SFTP/DKSH_TW/CUSTOMER_3/FOLDER_10/DN800018251920240708123641.csv",
+    "document_type": "order",
+    "po_number": null,
+    "items": [
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000001",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123042",
+            "Column_15": "FWHB",
+            "Column_16": "18",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000002",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123043",
+            "Column_15": "FWHB",
+            "Column_16": "144",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000003",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123044",
+            "Column_15": "FWHB",
+            "Column_16": "196",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000004",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123045",
+            "Column_15": "FWHB",
+            "Column_16": "45",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000005",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123046",
+            "Column_15": "FWHB",
+            "Column_16": "27",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000006",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123047",
+            "Column_15": "FWHB",
+            "Column_16": "60",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000007",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123048",
+            "Column_15": "FWHB",
+            "Column_16": "184",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000008",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123049",
+            "Column_15": "FWHB",
+            "Column_16": "336",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000009",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123144",
+            "Column_15": "FWHB",
+            "Column_16": "26",
+            "Column_17": "CAR",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000010",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3110292",
+            "Column_15": "FWHB",
+            "Column_16": "276",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000011",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123038",
+            "Column_15": "FWHB",
+            "Column_16": "42",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000012",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123050",
+            "Column_15": "FWHB",
+            "Column_16": "48",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        },
+        {
+            "Hehe": "SD005",
+            "hehe": "20240708123641",
+            "mot_2": "8000182519",
+            "m?t_2": "000013",
+            "haha m?t": "20240709",
+            "1": "TW00206666",
+            "16 hehe": "?????",
+            "Column_8": "0972808094",
+            "Column_9": "351",
+            "Column_10": "??????",
+            "Column_11": "?????35?",
+            "Column_12": "109003???PPG240705G001?????",
+            "Column_13": "3100",
+            "Column_14": "3123051",
+            "Column_15": "FWHB",
+            "Column_16": "12",
+            "Column_17": "PAK",
+            "Column_18": "",
+            "Column_19": "???????? 0972808094",
+            "Column_20": "???",
+            "Column_21": "",
+            "Column_22": "",
+            "Column_23": "",
+            "Column_24": "",
+            "Column_25": "0",
+            "Column_26": "",
+            "Column_27": ""
+        }
+    ],
+    "metadata": {},
+    "step_status": "1",
+    "messages": null,
+    "capacity": "2.58 KB",
+    "step_detail": [
+        {
+            "step": {
+                "workflowStepId": "0197e455-de5a-71d1-8428-6f10e4152f80",
+                "stepName": "TEMPLATE_FILE_PARSE",
+                "stepOrder": 1,
+                "stepConfiguration": []
+            },
+            "config_api": [
+                {
+                    "stepId": "0197e455-de5a-71d1-8428-6f10e4152f80",
+                    "configId": "0197e455-deab-783d-97dd-7e7fcc368f11",
+                    "templateFileParse": {
+                        "id": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "code": "CSV_003_TEMPLATE",
+                        "extension": "CSV"
+                    }
+                }
+            ],
+            "metadata_api": [
+                {
+                    "url": "/api/workflow/step/start",
+                    "request": {
+                        "sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44",
+                        "stepId": "0197e455-de5a-71d1-8428-6f10e4152f80"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695",
+                        "status": "PROCESSING"
+                    }
+                },
+                {
+                    "url": "/api/workflow/step/finish",
+                    "request": {
+                        "workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695",
+                        "code": "1",
+                        "message": "",
+                        "dataInput": "input_data",
+                        "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_FILE_PARSE/DN800018251920240708123641.json"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-df6d-78e8-a675-625adf34e695",
+                        "status": "SUCCESS"
+                    }
+                }
+            ]
+        },
+        {
+            "step": {
+                "workflowStepId": "0198cff4-1217-7e4a-8777-f95d13847d7f",
+                "stepName": "TEMPLATE_FORMAT_VALIDATION",
+                "stepOrder": 2,
+                "stepConfiguration": []
+            },
+            "config_api": {
+                "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                "templateFileParserCode": "CSV_003_TEMPLATE",
+                "templateExtension": "CSV",
+                "orderTypeDto": {
+                    "orderTypeId": "0198596e-1521-77fd-8112-79b4fbcd623c",
+                    "orderTypeName": "Purchase order"
+                },
+                "version": 7,
+                "status": "ACTIVE",
+                "columns": [
+                    {
+                        "templateFileColumnId": "019979f0-c41f-7ad5-9f4e-0e7c376dbfe3",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 1,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c41f-7ee6-b605-febdaf6309a0",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 2,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c41f-74ca-bff3-27b6ad330567",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 3,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-7026-a1f9-15ef0215f561",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 4,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-7506-9579-c0834dbf4cf8",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 5,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-76bc-915f-bdff57fba307",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 6,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-788e-8c7b-2198ff5c0d1f",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 7,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-763f-9290-075a00c6054d",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 8,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-776c-bcf0-7da7a2f31d90",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 9,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-78ec-83a2-9b306f2aea9a",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 10,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-77f9-8f73-6ec21b75ce76",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 11,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c420-737d-aa31-6097d7bae289",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 12,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c422-76ff-b604-c839a5784ea8",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 13,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c422-7a12-a920-6aef0057d642",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 14,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c422-7531-a1f3-b31146e92e55",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 15,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c422-7821-9e17-2789b78d9508",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 16,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c422-7c83-a2a8-a701e54fc3c5",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 17,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-77de-9374-0c5c8337e0ae",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 18,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-7e8c-9dd5-0d9cc9448559",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 19,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-773a-bbfe-0d19b29c6946",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 20,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-70cf-9ee1-c2a8c21661ae",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 21,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-7712-9fdd-9d4ca212b83a",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 22,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-7ca6-a60b-866825930144",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 23,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-7af3-9fda-ad1874813273",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 24,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-7d11-a792-57cea1ca09b9",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 25,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c424-770f-9ff6-98514d7f9bf4",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 26,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    },
+                    {
+                        "templateFileColumnId": "019979f0-c427-7540-9c71-f4674a62f3eb",
+                        "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                        "dataType": "Text",
+                        "order": 27,
+                        "metadata": "{\"required\":false,\"allowEmpty\":true,\"regex\":\"\",\"maxLength\":null}"
+                    }
+                ],
+                "isLastInActive": false
+            },
+            "metadata_api": [
+                {
+                    "url": "/api/workflow/step/start",
+                    "request": {
+                        "sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44",
+                        "stepId": "0198cff4-1217-7e4a-8777-f95d13847d7f"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90",
+                        "status": "PROCESSING"
+                    }
+                },
+                {
+                    "url": "/api/workflow/step/finish",
+                    "request": {
+                        "workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90",
+                        "code": "1",
+                        "message": "",
+                        "dataInput": "input_data",
+                        "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_FORMAT_VALIDATION/DN800018251920240708123641.json"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-e7e4-70b2-a9c3-be5ada015a90",
+                        "status": "SUCCESS"
+                    }
+                }
+            ]
+        },
+        {
+            "step": {
+                "workflowStepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680",
+                "stepName": "TEMPLATE_DATA_MAPPING",
+                "stepOrder": 3,
+                "stepConfiguration": []
+            },
+            "config_api": {
+                "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                "templateFileParserId": "019979f0-c41e-7837-a157-dd15748de42e",
+                "status": "ACTIVE",
+                "templateFileName": "DN800018251920240708123641 (7).csv",
+                "templateMappingHeaders": [
+                    {
+                        "templateMappingHeaderId": "019979f5-2da7-7799-a975-d09ef6d40281",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5ccf-7898-8b12-8d39681ba731",
+                        "fromHeader": "Hehe",
+                        "header": "Column_1",
+                        "order": 1
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc1-7f4e-a84f-b2459cfb45d3",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5ccf-742b-8674-67f08a39ccbc",
+                        "fromHeader": "hehe",
+                        "header": "Column_2",
+                        "order": 2
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc1-7e73-aa2d-4186ebbee66d",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5ccf-776b-8996-f4eee7f52c0c",
+                        "fromHeader": "mot_2",
+                        "header": "Column_3",
+                        "order": 3
+                    },
+                    {
+                        "templateMappingHeaderId": "019979f5-2da9-77a2-8f10-3672b196e87e",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5ccf-7a02-a478-87962fb8cd88",
+                        "fromHeader": "m?t_2",
+                        "header": "Column_4",
+                        "order": 4
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b59-79ed-795f-ab44-c3efa4b66c24",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7bbe-8911-1625c327d5e5",
+                        "fromHeader": "haha m?t",
+                        "header": "Column_5",
+                        "order": 5
+                    },
+                    {
+                        "templateMappingHeaderId": "019979f5-2db0-7204-924e-e96adc105ec9",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7a71-ac6b-9ac6ed0d7e35",
+                        "fromHeader": "1",
+                        "header": "Column_6",
+                        "order": 6
+                    },
+                    {
+                        "templateMappingHeaderId": "019979f5-2db0-741a-b2fd-f1b5fd9acf38",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-70d9-97da-1f73d009834b",
+                        "fromHeader": "16 hehe",
+                        "header": "Column_7",
+                        "order": 7
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc1-788b-a647-1a16fbccc785",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7f38-a847-0b4a5fc6a0b4",
+                        "fromHeader": "Column_8",
+                        "header": "Column_8",
+                        "order": 8
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc1-7c9b-9f50-99f68e605515",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-725d-91fc-2f5e8ec8ce9c",
+                        "fromHeader": "Column_9",
+                        "header": "Column_9",
+                        "order": 9
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7850-afab-11a34d2f5404",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-739d-bd82-c1204dd048c9",
+                        "fromHeader": "Column_10",
+                        "header": "Column_10",
+                        "order": 10
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7eb1-bb6d-5775d0f30320",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7341-a080-9d9a55b6e6c8",
+                        "fromHeader": "Column_11",
+                        "header": "Column_11",
+                        "order": 11
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7604-9eb7-5a87050f1a03",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7098-929f-f7f85ba1eec5",
+                        "fromHeader": "Column_12",
+                        "header": "Column_12",
+                        "order": 12
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-75c6-a4e4-70d3f0828e00",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7a33-8285-05850210578e",
+                        "fromHeader": "Column_13",
+                        "header": "Column_13",
+                        "order": 13
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-71c4-b87d-0eea92924caa",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-7ee3-b39f-3df01f96bbab",
+                        "fromHeader": "Column_14",
+                        "header": "Column_14",
+                        "order": 14
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7ea1-8075-730d0e2d5add",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-73d8-bd4c-6a74920d223a",
+                        "fromHeader": "Column_15",
+                        "header": "Column_15",
+                        "order": 15
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7fca-a5c0-f024a9318ab8",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd0-72b5-99bd-8199397ea60c",
+                        "fromHeader": "Column_16",
+                        "header": "Column_16",
+                        "order": 16
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7358-a2eb-6e13ab39d391",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd1-71b0-a2dd-e91fa2c79ed7",
+                        "fromHeader": "Column_17",
+                        "header": "Column_17",
+                        "order": 17
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc2-7d22-a912-7356f8f3dae3",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd2-7410-af56-deea12538658",
+                        "fromHeader": "Column_18",
+                        "header": "Column_18",
+                        "order": 18
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-7acb-92d9-d3c6dec602d3",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd2-728d-91dc-a09e0fecd22b",
+                        "fromHeader": "Column_19",
+                        "header": "Column_19",
+                        "order": 19
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-761c-90e0-30bd7ef47310",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd2-7259-81f4-39878f9f4bbf",
+                        "fromHeader": "Column_20",
+                        "header": "Column_20",
+                        "order": 20
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-77e3-a9c2-c365f99cc670",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd3-75bf-9cd7-68b0074b707e",
+                        "fromHeader": "Column_21",
+                        "header": "Column_21",
+                        "order": 21
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-7482-b8e6-fabd1b88d6d2",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd3-7aa0-9769-70668e25d1dd",
+                        "fromHeader": "Column_22",
+                        "header": "Column_22",
+                        "order": 22
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-70c7-9a0a-b9cb9e71618f",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd3-78b8-bd0d-e2a505d982a0",
+                        "fromHeader": "Column_23",
+                        "header": "Column_23",
+                        "order": 23
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-76a3-94c4-fafbeb5a6ae5",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd3-7371-b46b-a94810b10285",
+                        "fromHeader": "Column_24",
+                        "header": "Column_24",
+                        "order": 24
+                    },
+                    {
+                        "templateMappingHeaderId": "01994b55-1cc3-748a-83d3-97bdcba98882",
+                        "templateMappingId": "01992772-f75b-765e-b0fe-f5b607c503b1",
+                        "masterTemplateHeaderId": "01997eba-5cd3-704b-94e2-6f032eff7ec1",
+                        "fromHeader": "Column_25",
+                        "header": "Column_25",
+                        "order": 25
+                    }
+                ]
+            },
+            "metadata_api": [
+                {
+                    "url": "/api/workflow/step/start",
+                    "request": {
+                        "sessionId": "01997ec5-dda1-7384-9eec-2a6bb24d4b44",
+                        "stepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600",
+                        "status": "PROCESSING"
+                    }
+                },
+                {
+                    "url": "/api/workflow/step/finish",
+                    "request": {
+                        "workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600",
+                        "code": "1",
+                        "message": "",
+                        "dataInput": "input_data",
+                        "dataOutput": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_DATA_MAPPING/DN800018251920240708123641.json"
+                    },
+                    "response": {
+                        "workflowHistoryId": "01997ec5-ee1f-7a7c-b31a-8c030b453600",
+                        "status": "SUCCESS"
+                    }
+                }
+            ]
+        }
+    ],
+    "workflow_detail": {
+        "filter_api": {
+            "id": "0197e455-de48-74e1-8321-56d759a13b7f",
+            "name": "DKSH Taiwan - Customer 3 - Folder 10 - CSV",
+            "status": "ACTIVE",
+            "isMasterDataWorkflow": false,
+            "sapMasterData": false,
+            "workflowSteps": [
+                {
+                    "workflowStepId": "0197e455-de5a-71d1-8428-6f10e4152f80",
+                    "stepName": "TEMPLATE_FILE_PARSE",
+                    "stepOrder": 1,
+                    "stepConfiguration": []
+                },
+                {
+                    "workflowStepId": "0198cff4-1217-7e4a-8777-f95d13847d7f",
+                    "stepName": "TEMPLATE_FORMAT_VALIDATION",
+                    "stepOrder": 2,
+                    "stepConfiguration": []
+                },
+                {
+                    "workflowStepId": "af353c09-fefb-4f9e-84cc-9f6f3dd23680",
+                    "stepName": "TEMPLATE_DATA_MAPPING",
+                    "stepOrder": 3,
+                    "stepConfiguration": []
+                }
+            ]
+        },
+        "metadata_api": [
+            {
+                "url": "/api/workflow/session/start",
+                "request": {
+                    "workflowId": "0197e455-de48-74e1-8321-56d759a13b7f",
+                    "celeryId": "a735225b-24bb-41e9-a67f-87e4f256f042",
+                    "filePath": "SAP_SFTP/DKSH_TW/CUSTOMER_3/FOLDER_10/DN800018251920240708123641.csv"
+                },
+                "response": {
+                    "id": "01997ec5-dda1-7384-9eec-2a6bb24d4b44",
+                    "status": "PROCESSING"
+                }
+            }
+        ]
+    },
+    "json_output": "workflow-node-materialized/a735225b-24bb-41e9-a67f-87e4f256f042/TEMPLATE_DATA_MAPPING/DN800018251920240708123641.json"
+}
