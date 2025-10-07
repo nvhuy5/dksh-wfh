@@ -1,9 +1,0 @@
-.env
-.aws
-.vscode
-.sonar
-coverage.xml
-**/celery_logs
-**/.pytest_cache
-**/.coverage
-**/__pycache__
