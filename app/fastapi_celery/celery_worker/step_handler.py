@@ -323,11 +323,18 @@ async def execute_step(
 
         # Call method (await if coroutine)
         call_kwargs = kwargs or {}
-        result = (
-            await method(*args, **call_kwargs)
-            if asyncio.iscoroutinefunction(method)
-            else method(*args, **call_kwargs)
-        )
+        # result = (
+        #     method(*args, **call_kwargs)
+        #     if asyncio.iscoroutinefunction(method)
+        #     else method(*args, **call_kwargs)
+        # )
+        
+        if asyncio.iscoroutinefunction(method):
+            # Run async without await
+            task = asyncio.create_task(method(*args, **call_kwargs))
+            result = await task
+        else:
+            result = method(*args, **call_kwargs)
 
         # === Try to retrieve all traceability attributes again
         traceability_context_values = {

@@ -77,7 +77,8 @@ def task_execute(
         )
         # Copy context and run asyncio task inside it
         ctx = contextvars.copy_context()
-        ctx.run(lambda: asyncio.run(handle_task(file_path, celery_id, rerun_attempt)))
+        # ctx.run(lambda: asyncio.run(handle_task(file_path, celery_id, rerun_attempt)))
+        ctx.run(handle_task(file_path, celery_id, rerun_attempt))
         # ===
         traceability_context_values = {
             key: val
@@ -148,7 +149,7 @@ def task_execute(
             raise
 
 
-async def handle_task(
+def handle_task(
     file_path: str, celery_id: str, rerun_attempt: Optional[int] = None
 ) -> Dict[str, Any]:
     """
@@ -162,19 +163,19 @@ async def handle_task(
         Dict[str, Any]: This function performs processing and return a dict of value extracted.
     """
     # === Initialization & metadata extraction ===
-    redis_utils, file_processor, context, request_id, traceability_context_values, body_data = await _init_context_and_metadata(
+    redis_utils, file_processor, context, request_id, traceability_context_values, body_data = _init_context_and_metadata(
         file_path, celery_id, rerun_attempt
     )
  
     # === Fetch workflow and update context ===
-    workflow_model = await _fetch_workflow_and_set_context(
+    workflow_model = _fetch_workflow_and_set_context(
         file_processor, celery_id, file_path, traceability_context_values, body_data, context
     )
     if not workflow_model:
         return context
     
     # === Start workflow session ===
-    workflow_session = await _start_workflow_session(
+    workflow_session = _start_workflow_session(
         workflow_model, celery_id, file_path, context, request_id
     )
     if not workflow_session:
@@ -186,7 +187,7 @@ async def handle_task(
     )
 
     # === Process all workflow steps ===
-    step_names = await _process_workflow_steps(
+    step_names = _process_workflow_steps(
         workflow_model,
         workflow_session,
         file_processor,
@@ -200,7 +201,7 @@ async def handle_task(
     )
     
     # === Finish workflow session ===
-    await _finish_workflow(
+    _finish_workflow(
         workflow_model,
         workflow_session,
         file_processor,
@@ -218,7 +219,7 @@ async def handle_task(
 #                      Helper functions
 # -------------------------------------------------------------
 
-async def _init_context_and_metadata(file_path, celery_id, rerun_attempt):
+def _init_context_and_metadata(file_path, celery_id, rerun_attempt):
     logger.info(
         f"[{celery_id}] Start processing file: {file_path}"
         + (f" | Rerun attempt: {rerun_attempt}" if rerun_attempt is not None else ""),
@@ -275,9 +276,9 @@ async def _init_context_and_metadata(file_path, celery_id, rerun_attempt):
     return redis_utils, file_processor, context, request_id, traceability_context_values, body_data
 
 
-async def _fetch_workflow_and_set_context(file_processor, celery_id, file_path, traceability_context_values, body_data, context):
+def _fetch_workflow_and_set_context(file_processor, celery_id, file_path, traceability_context_values, body_data, context):
     workflow = BEConnector(ApiUrl.WORKFLOW_FILTER.full_url(), body_data=body_data)
-    workflow_response = await workflow.post()
+    workflow_response = workflow.post()
     if not workflow_response:
         logger.error(
             f"[{celery_id}] Failed to fetch workflow for file: {file_path}",
@@ -323,7 +324,7 @@ async def _fetch_workflow_and_set_context(file_processor, celery_id, file_path, 
     )
     return workflow_model
 
-async def _start_workflow_session(workflow_model, celery_id, file_path, context, request_id):
+def _start_workflow_session(workflow_model, celery_id, file_path, context, request_id):
     # === Start session ===
     traceability_context_values = {
         key: val
@@ -345,7 +346,7 @@ async def _start_workflow_session(workflow_model, celery_id, file_path, context,
             "filePath": file_path,
         },
     )
-    start_session_response = await session_connector.post()
+    start_session_response = session_connector.post()
     if not start_session_response:
         logger.error(
             f"[{celery_id}] Failed to create workflow session.",
@@ -385,7 +386,7 @@ async def _start_workflow_session(workflow_model, celery_id, file_path, context,
     return workflow_session
 
 
-async def _process_workflow_steps(
+def _process_workflow_steps(
     workflow_model,
     workflow_session,
     file_processor,
@@ -410,7 +411,7 @@ async def _process_workflow_steps(
         step_config, s3_key_prefix = _prepare_step_config(step, file_processor, celery_id, context, step_order)
         
         # 3. Resolve metadata API and get config API data
-        await _resolve_step_api(step, file_processor, context, step_config)
+        _resolve_step_api(step, file_processor, context, step_config)
 
         # Start step
         # Start updating Redis for StepID to track
@@ -421,13 +422,13 @@ async def _process_workflow_steps(
             status="InProgress",
             step_id=step.workflowStepId,
         )
-        step_response = await BEConnector(
+        step_response = BEConnector(
             ApiUrl.WORKFLOW_STEP_START.full_url(),
             {"sessionId": workflow_session.id, "stepId": step.workflowStepId},
         ).post()
 
         # 4. Execute step, handle result, finish step, save metadata and S3 output
-        await _execute_and_finish_step(
+        _execute_and_finish_step(
                 step,
                 workflow_model,
                 workflow_session,
@@ -512,7 +513,7 @@ def _prepare_step_config(step, file_processor, celery_id, context, step_order):
         return step_config, s3_key_prefix
 
 
-async def _resolve_step_api(step, file_processor, context, step_config):    
+def _resolve_step_api(step, file_processor, context, step_config):    
     # Save step detail to context for use in output
     # Resolve metadata for API call
     config_api_records = []  # always a list
@@ -558,7 +559,7 @@ async def _resolve_step_api(step, file_processor, context, step_config):
             body = call_def["body"](config_api_ctx) if callable(call_def["body"]) else call_def["body"]
 
             connector = BEConnector(url, params=params, body_data=body)
-            response = await (connector.get() if method == "get" else connector.post())
+            response = (connector.get() if method == "get" else connector.post())
 
             # extract dynamic values if needed
             if "extract" in call_def:
@@ -588,7 +589,7 @@ async def _resolve_step_api(step, file_processor, context, step_config):
     )
 
 
-async def _execute_and_finish_step(
+def _execute_and_finish_step(
     step,
     workflow_model,
     workflow_session,
@@ -619,7 +620,7 @@ async def _execute_and_finish_step(
 
     # Execute step (context is updated internally)
     try:
-        step_result = await execute_step(
+        step_result = execute_step(
             file_processor, step, context, celery_id, rerun_attempt
         )
         # === Try to retrieve all traceability attributes again
@@ -676,7 +677,7 @@ async def _execute_and_finish_step(
         )
 
         err_msg = "; ".join(step_result.step_failure_message or ["Unknown error"])
-        finish_step_response_model = await BEConnector(
+        finish_step_response_model = BEConnector(
             ApiUrl.WORKFLOW_STEP_FINISH.full_url(),
             {
                 "workflowHistoryId": start_step_response_model.workflowHistoryId,
@@ -709,7 +710,7 @@ async def _execute_and_finish_step(
             step_id=step.workflowStepId,
         )
 
-        finish_step_response_model = await BEConnector(
+        finish_step_response_model = BEConnector(
             ApiUrl.WORKFLOW_STEP_FINISH.full_url(),
             {
                 "workflowHistoryId": start_step_response_model.workflowHistoryId,
@@ -782,7 +783,7 @@ async def _execute_and_finish_step(
     raise_if_failed(step_result, step.stepName)
 
 
-async def _finish_workflow(
+def _finish_workflow(
     workflow_model,
     workflow_session,
     file_processor,
@@ -798,7 +799,7 @@ async def _finish_workflow(
     redis_utils.store_workflow_id(
         task_id=celery_id, workflow_id=workflow_model.id, status=StatusEnum.SUCCESS
     )
-    finish_session_response = await BEConnector(
+    finish_session_response = BEConnector(
         ApiUrl.WORKFLOW_SESSION_FINISH.full_url(),
         {"id": workflow_session.id, "code": StatusEnum.SUCCESS, "message": ""},
     ).post()
