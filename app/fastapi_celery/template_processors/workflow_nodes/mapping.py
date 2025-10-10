@@ -89,11 +89,11 @@ async def template_data_mapping(self, input_data: StepOutput) -> StepOutput:
                 step_failure_message=[error_msg],
             )
         
-        # Step 5: Build mapping dictionary: only map when fromHeader is valid and different from header
+        # Step 5: Build mapping dictionary: map fromHeader → header
         mapping_dict = {
-            m["header"]: m["fromHeader"]
+            m["fromHeader"]: m["header"]
             for m in headers_sorted
-            if m["fromHeader"] and m["fromHeader"] not in ("Unmapping", m["header"]) and m["header"] in df.columns
+            if m["fromHeader"] and m["fromHeader"] not in ("Unmapping", m["header"]) and m["fromHeader"] in df.columns
         }
 
         # Step 6: Apply rename (only if mapping_dict is not empty)

@@ -60,8 +60,8 @@ def test_data_validation_required_missing(sample_po_parsed):
 
 def test_data_validation_max_length_error(sample_po_parsed):
     """String exceeds maxLength → FAILED"""
-    schema = [{"order": 2, "dataType": "String", "metadata": '{"maxLength": 3}'}]
-    parsed = sample_po_parsed.model_copy(update={"items": [{"col_2": "TOO_LONG"}]})
+    schema = [{"order": 2, "dataType": "Text", "metadata": '{"required": true, "maxLength": 3}'}]
+    parsed = sample_po_parsed.model_copy(update={"items": [{"col_1": "dummy", "col_2": "TOO_LONG"}]})
     validator = TemplateValidation(parsed)
     result = validator.data_validation(schema)
     assert result.step_status == StatusEnum.FAILED
@@ -70,8 +70,8 @@ def test_data_validation_max_length_error(sample_po_parsed):
 
 def test_data_validation_regex_error(sample_po_parsed):
     """Regex mismatch → FAILED"""
-    schema = [{"order": 2, "dataType": "String", "metadata": '{"regex": "^[A-Z]{3}$"}'}]
-    parsed = sample_po_parsed.model_copy(update={"items": [{"col_2": "wrong"}]})
+    schema = [{"order": 2, "dataType": "Text", "metadata": '{"required": true, "allowEmpty": false, "regex": "^[A-Z]{3}$"}'}]
+    parsed = sample_po_parsed.model_copy(update={"items": [{"col_1": "dummy", "col_2": "wrong"}]})
     validator = TemplateValidation(parsed)
     result = validator.data_validation(schema)
     assert result.step_status == StatusEnum.FAILED
@@ -90,8 +90,8 @@ def test_data_validation_invalid_number(sample_po_parsed):
 
 def test_data_validation_invalid_date(sample_po_parsed):
     """Invalid date → FAILED"""
-    schema = [{"order": 3, "dataType": "Date"}]
-    parsed = sample_po_parsed.model_copy(update={"items": [{"col_3": "invalid"}]})
+    schema = [{"order": 3, "dataType": "Date", "metadata": '{"required": true}'}]
+    parsed = sample_po_parsed.model_copy(update={"items": [{"col_1": "dummy", "col_2": "dummy", "col_3": "not_a_date"}]})
     validator = TemplateValidation(parsed)
     result = validator.data_validation(schema)
     assert result.step_status == StatusEnum.FAILED

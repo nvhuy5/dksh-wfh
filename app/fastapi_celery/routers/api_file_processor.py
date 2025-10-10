@@ -63,7 +63,7 @@ async def process_file(data: FilePathRequest, http_request: Request) -> Dict[str
             celery_id = getattr(http_request.state, "request_id", str(uuid4()))
 
         # Include rerun_attempt in Celery task call
-        celery_task.task_execute.apply(
+        celery_task.task_execute.apply_async(
             kwargs={
                 "file_path": data.file_path,
                 "celery_id": celery_id,

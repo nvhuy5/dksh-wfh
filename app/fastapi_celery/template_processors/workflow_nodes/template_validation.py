@@ -50,8 +50,16 @@ class TemplateValidation:
         return None
 
     def _check_regex(self, val: Any, regex: str | None, col_key: str, idx: int) -> str | None:
-        if regex and not re.fullmatch(regex, str(val)):
-            return f"Row {idx}: Field '{col_key}'='{val}' does not match regex {regex}"
+        if not regex:
+            return None
+
+        try:
+            if not re.fullmatch(regex, str(val)):
+                return f"Row {idx}: Field '{col_key}'='{val}' does not match regex {regex}"
+        except re.error as e:
+            logger.error(f"Invalid regex '{regex}' for field '{col_key}': {e}")
+            return f"Row {idx}: Field '{col_key}' has invalid regex pattern '{regex}': {e}"
+
         return None
 
     def _check_dtype(self, val: Any, dtype: str | None, col_key: str, idx: int) -> str | None:
@@ -98,11 +106,18 @@ class TemplateValidation:
         errors = []
 
         for col_def in schema_columns:
-            field_name = col_def.get("order")
-            col_key = f"col_{field_name}"
+            order = col_def.get("order")
+            col_key = f"col_{order}" 
 
             for idx, row in enumerate(self.items, start=2):
-                val = row.get(col_key)
+                if isinstance(row, dict):
+                    try:
+                        val = list(row.values())[order - 1]
+                    except Exception:
+                        val = None
+                else:
+                    val = None
+
                 errors.extend(self._validate_cell(val, col_def, col_key, idx))
 
         if errors:

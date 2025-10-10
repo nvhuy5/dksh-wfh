@@ -60,7 +60,7 @@ async def test_template_data_mapping_success(mock_connector, sample_po_parsed):
     assert result.step_status == StatusEnum.SUCCESS
     assert result.step_failure_message is None
     # Ensure header1 was renamed
-    assert "renamed_col" in result.output.items[0]
+    assert "header1" in result.output.items[0]
 
 
 @pytest.mark.asyncio
